@@ -2357,28 +2357,28 @@ task.defer(function()
 end)
 wait(1.0)
 Tabs.Info:AddButton({
-        Title="thịnh",
+        Title="TÔ NGỌC KHÁNH ",
         Description="Discord",
         Callback=function()
             setclipboard(tostring("https://discord.gg/wRvcMCf7xX")) 
         end
 })
 Tabs.Info:AddButton({
-    Title="thịnh",
+    Title="TÔ NGỌC KHÁNH ",
     Description="Youtube",
     Callback=function()
         setclipboard(tostring("https://m.youtube.com/channel/UCjIFH5AZ761OfX_7o5Nurvw"))
     end
 })
 Tabs.Info:AddButton({
-    Title="Fb thịnh",
+    Title="Fb TÔ NGỌC KHÁNH ",
     Description="Facebook",
     Callback=function()
         setclipboard(tostring("quên rồi"))
     end
 })
 Tabs.Info:AddParagraph({
-    Title="thịnh hoàng",
+    Title="TÔ NGỌC KHÁNH  hoàng",
     Content="Credits"
 })
 local executorName
@@ -6485,7 +6485,7 @@ ToggleF:OnChanged(function(Value)
 Options.ToggleF:SetValue(true)
 local Usser = Tabs.Info:AddParagraph({
     Title="Status",
-    Content="thịnh"..
+    Content="TÔ NGỌC KHÁNH "..
         "Name : "..game.Players.LocalPlayer.DisplayName.." (@"..game.Players.LocalPlayer.Name..")\n"..
         "Levels : "..game:GetService("Players").LocalPlayer.Data.Level.Value.."\n"..
         "Money : "..game:GetService("Players").LocalPlayer.Data.Beli.Value.."\n"..
